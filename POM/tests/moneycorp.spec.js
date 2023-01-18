@@ -5,7 +5,7 @@ const { HeaderPage } = require("../pages/headerPage");
 import { URL } from "../data/constant";
 import { ResultPage } from "../pages/resultPage";
 
-test("Moneycorp International payments verification", async () => {
+test("Moneycorp foreign exchange solutions links verification", async () => {
   const browser = await chromium.launch({
     headless: false,
   });
